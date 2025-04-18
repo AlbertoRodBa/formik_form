@@ -50,6 +50,7 @@ const Formulario = () => {
               type="text"
               errors={errors}
               touched={touched}
+              placeholder="Ingresa tu nombre" 
             />
             <CampoFormulario
               label="Apellido"
@@ -57,6 +58,7 @@ const Formulario = () => {
               type="text"
               errors={errors}
               touched={touched}
+              placeholder="Ingresa tu apellido" 
             />
             <CampoFormulario
               label="Email"
@@ -64,6 +66,7 @@ const Formulario = () => {
               type="email"
               errors={errors}
               touched={touched}
+              placeholder="Ingresa tu email" 
             />
             <button type="submit">Enviar</button>
           </Form>

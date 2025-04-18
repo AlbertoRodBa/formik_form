@@ -2,7 +2,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-
 .form-container {
   width: 400px;
   margin: 5rem auto 0 auto;
@@ -26,6 +25,7 @@ input {
   padding: 0.8rem;
   border-radius: 5px;
   border: 1px solid #ccc;
+  font-size: 1rem; 
 }
 
 .error {
@@ -46,4 +46,10 @@ button {
 
 button:disabled {
   background-color: #ccc;
+}
+
+input::placeholder {
+  color: #888; 
+  opacity: 1; 
+  font-size: 1rem; 
 }
